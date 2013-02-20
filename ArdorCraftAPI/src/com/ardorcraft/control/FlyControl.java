@@ -210,7 +210,7 @@ public class FlyControl {
 		                player,
 		                layer,
 		                upAxis,
-		                new UprightFPSMoveConfig(UprightFPSMoveConfig.defaultControls.LeftHanded));
+		                new UprightFPSMoveConfig(UprightFPSMoveConfig.defaultControls.RightHanded));
 		control.setupKeyboardTriggers(layer);
 		control.setupMouseTriggers(layer, dragOnly);
 		return control;
