@@ -36,7 +36,6 @@ import com.ardor3d.image.Texture.MagnificationFilter;
 import com.ardor3d.image.Texture.WrapMode;
 import com.ardor3d.image.Texture2D;
 import com.ardor3d.image.TextureStoreFormat;
-import com.ardor3d.image.util.AWTImageLoader;
 import com.ardor3d.math.ColorRGBA;
 import com.ardor3d.math.MathUtils;
 import com.ardor3d.math.Vector3;
@@ -58,6 +57,9 @@ import com.ardor3d.scenegraph.hint.LightCombineMode;
 import com.ardor3d.util.ReadOnlyTimer;
 import com.ardor3d.util.TextureManager;
 import com.ardor3d.util.geom.BufferUtils;
+
+import com.ardor3d.image.util.awt.AWTImageLoader;
+
 import com.ardorcraft.collision.HitTester;
 import com.ardorcraft.collision.IntersectionResult;
 import com.ardorcraft.collision.Tracer;
@@ -69,6 +71,7 @@ import com.ardorcraft.util.queue.Coords;
 import com.ardorcraft.util.queue.Task;
 import com.ardorcraft.util.queue.WorkerManager;
 import com.ardorcraft.world.utils.ChunkDistanceComparator;
+
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
