@@ -27,8 +27,6 @@ import com.ardor3d.framework.Scene;
 import com.ardor3d.framework.Updater;
 import com.ardor3d.framework.lwjgl.LwjglCanvas;
 import com.ardor3d.framework.lwjgl.LwjglCanvasRenderer;
-import com.ardor3d.image.util.AWTImageLoader;
-import com.ardor3d.image.util.ScreenShotImageExporter;
 import com.ardor3d.input.Key;
 import com.ardor3d.input.MouseManager;
 import com.ardor3d.input.PhysicalLayer;
@@ -67,6 +65,10 @@ import com.ardor3d.util.geom.Debugger;
 import com.ardor3d.util.resource.ResourceLocatorTool;
 import com.ardor3d.util.screen.ScreenExporter;
 import com.ardor3d.util.stat.StatCollector;
+
+import com.ardor3d.image.util.awt.AWTImageLoader;
+import com.ardor3d.image.util.awt.ScreenShotImageExporter;
+
 import com.ardorcraft.util.queue.WorkerManager;
 
 public abstract class ArdorBaseApplication implements Runnable, Updater, Scene {

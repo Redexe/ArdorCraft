@@ -26,7 +26,6 @@ import com.ardor3d.framework.DisplaySettings;
 import com.ardor3d.framework.Scene;
 import com.ardor3d.framework.lwjgl.LwjglCanvasRenderer;
 import com.ardor3d.framework.lwjgl.LwjglDisplayCanvas;
-import com.ardor3d.image.util.AWTImageLoader;
 import com.ardor3d.input.Key;
 import com.ardor3d.input.PhysicalLayer;
 import com.ardor3d.input.logical.InputTrigger;
@@ -53,6 +52,9 @@ import com.ardor3d.util.GameTaskQueueManager;
 import com.ardor3d.util.Timer;
 import com.ardor3d.util.resource.ResourceLocatorTool;
 import com.ardor3d.util.resource.SimpleResourceLocator;
+
+import com.ardor3d.image.util.awt.AWTImageLoader;
+
 import com.ardorcraft.util.queue.WorkerManager;
 
 /**
